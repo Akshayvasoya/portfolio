@@ -258,9 +258,9 @@
   },
   "projects": [
     {
-      "name": "Anonindo",
-      "tagline": "AI-powered attendance management system using Computer Vision and Machine Learning for real-time face recognition and automated attendance tracking.",
-      "logoImg": "image/anonindo-logo.png",
+      "name": "My Swayam",
+      "tagline": "Technology channel dedicated to AI, Computer Vision, Machine Learning, software development, and innovative solutions for real-world applications.",
+      "logoImg": "image/My_Swayam_Logo.png",
       "logoText": "AI Face Recognition",
       "repoUrl": "https://github.com/akshayvasoya",
       "demoUrl": ""
