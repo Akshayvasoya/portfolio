@@ -4,7 +4,7 @@ A neo-brutalist personal portfolio built with vanilla HTML, CSS, and JavaScript.
 
 This is a personal fun project, not a production template. The code prioritizes creativity and experimentation over best practices. It's a playground for trying out ideas, animations, and interactions - not a reference architecture.
 
-**[Live Site](https://akshayvasoya.me)**
+**[Live Site](https://akshayvasoya.github.io/portfolio/)**
 
 ## What is Neo-Brutalism?
 
