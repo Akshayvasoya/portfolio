@@ -1,0 +1,321 @@
+{
+  "personal": {
+    "name": "Akshay Vasoya",
+    "role": "Senior Software Engineer",
+    "email": "akshayvasoya@gmail.com",
+    "bio": "Based in Surat, India, I'm a Software Engineer and Open Source Contributor. I love building websites, plugins, themes, and scalable digital solutions. I'm passionate about Artificial Intelligence, Machine Learning, and turning ideas into impactful products.",
+    "location": "Surat, India",
+    "geo": {
+      "region": "DE-BY",
+      "placename": "Munich",
+      "position": "48.1351;11.5820"
+    },
+    "greetings": "Hi there! 👋",
+    "social": {
+      "github": "https://github.com/Akshayvasoya",
+      "linkedin": "https://linkedin.com/in/akshayvasoya",
+      "stackoverflow": "https://stackoverflow.com/users/akshay-vasoya",
+      "wordpress": "https://profiles.wordpress.org/anonymoustech/"
+    },
+    "coffeeLink": "https://www.paypal.com/paypalme/7201870550",
+    "avatar": "image/avatar-gpt.png",
+    "label": "CEO Anonindo",
+    "badges": [
+      {
+        "name": "Node.js",
+        "icon": "fab fa-node-js"
+      },
+      {
+        "name": "React",
+        "icon": "fab fa-react"
+      },
+      {
+        "name": "Python",
+        "icon": "fab fa-python"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "fab fa-js"
+      },
+      {
+        "name": "HTML",
+        "icon": "fab fa-html5"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "fab fa-css3"
+      },
+      {
+        "name": "Google Cloud",
+        "icon": "fab fa-google"
+      },
+      {
+        "name": "Docker",
+        "icon": "fab fa-docker"
+      }
+    ],
+    "stickyRibbon": {
+      "enabled": true,
+      "text": "Wordpress",
+      "url": "https://profiles.wordpress.org/anonymoustech/",
+      "icon": "fas fa-trophy",
+      "color": "#ffd93d"
+    },
+    "mapSettings": {
+      "continent": "asia",
+      "center": [
+        21.21476,
+        72.88869
+      ],
+      "zoom": 3
+    }
+  },
+  "about": [
+    "Information Technology graduate and aspiring AI & ML professional with hands-on experience in <span class=\"highlight highlight-yellow\">software engineering</span>, <span class=\"highlight highlight-pink\">WordPress plugin and theme development</span>, and <span class=\"highlight highlight-cyan\">Shopify-based solutions</span>. I have published <span class=\"highlight highlight-green\">9 WordPress plugins and 3 themes</span> on WordPress.org while building scalable web applications, e-commerce solutions, and <span class=\"highlight highlight-yellow\">computer vision-based projects</span> for real-world use cases.",
+    "My passion for <span class=\"highlight highlight-cyan\">continuous learning and innovation</span> drives me to explore emerging technologies in <span class=\"highlight highlight-pink\">Artificial Intelligence, Machine Learning, and Generative AI</span>. I actively contribute to open-source projects, experiment with modern development tools, and continuously expand my knowledge through certifications, research, and hands-on development.",
+    "I bring a combination of <span class=\"highlight highlight-yellow\">technical expertise</span>, <span class=\"highlight highlight-green\">problem-solving abilities</span>, and a strong commitment to building <span class=\"highlight highlight-cyan\">user-focused digital solutions</span>. Whether developing web products, AI-powered applications, or open-source software, I enjoy transforming ideas into reliable and impactful technology."
+  ],
+  "journey": [
+    {
+      "id": "exp-1",
+      "company": "Chegg India Pvt. Ltd.",
+      "role": "Homework Help Tutor (Computer Science)",
+      "period": "May 2022 – April 2023",
+      "description": "Provided detailed solutions and explanations for Computer Science and Information Technology questions.\nAssisted students in understanding programming concepts, algorithms, databases, and software engineering topics.\nMaintained high answer quality standards while meeting strict response deadlines.\nDeveloped strong analytical, problem-solving, and technical communication skills through academic mentoring.\nSupported learners from diverse educational backgrounds in improving their understanding of technical subjects.",
+      "location": "Santa Clara, California, USA (Remote)",
+      "country": "USA",
+      "coordinates": [
+        37.3541,
+        -121.9552
+      ]
+    },
+    {
+      "id": "exp-2",
+      "company": "Syphnosys Infotech Pvt. Ltd.",
+      "role": "Android & Flutter Developer",
+      "period": "March 2023 - Nov 2023",
+      "description": "Developed cross-platform mobile applications using Flutter and Android technologies.\nImplemented user-friendly interfaces, application logic, and API integrations.\nWorked with Firebase, local storage, and third-party services to enhance application functionality.\nResolved bugs, improved performance, and ensured application stability across devices.\nCollaborated with cross-functional teams to deliver high-quality mobile solutions.",
+      "location": "Surat, India",
+      "country": "India",
+      "coordinates": [
+        21.21476,
+        72.88869
+      ]
+    },
+    {
+      "id": "exp-3",
+      "company": "OlixLab Pvt. Ltd.",
+      "role": "Website Developer",
+      "period": "Dec 2013 - Current",
+      "description": "Develop and maintain websites and e-commerce solutions using WordPress, Shopify, Webflow, and Squarespace.\nDesign and build custom WordPress plugins, themes, and website features to meet business requirements.\nCustomize website layouts, functionality, and integrations while ensuring responsive and user-friendly experiences.\nImplement API integrations, payment solutions, and automation workflows to improve operational efficiency.\nOptimize website performance, security, SEO readiness, and overall user experience across multiple platforms.\nWork closely with clients to transform business requirements into scalable and reliable digital solutions.",
+      "location": "Surat, India",
+      "country": "India",
+      "coordinates": [
+        21.1898,
+        72.7883
+      ]
+    }
+  ],
+  "skills": {
+    "Frontend": {
+      "icon": "fab fa-react",
+      "tags": [
+        "React.js",
+        "Redux",
+        "MobX",
+        "Angular",
+        "Bootstrap",
+        "Material-UI",
+        "React Native",
+        "Ionic"
+      ]
+    },
+    "Languages": {
+      "icon": "fas fa-code",
+      "tags": [
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "Java",
+        "Kotlin",
+        "SQL",
+        "HTML",
+        "CSS"
+      ]
+    },
+    "Backend": {
+      "icon": "fab fa-node",
+      "tags": [
+        "Node.js",
+        "Express.js",
+        "Hapi",
+        "Firebase",
+        "Cloud Functions",
+        "AWS Lambda",
+        "AWS S3",
+        "NGINX"
+      ]
+    },
+    "Cloud & DevOps": {
+      "icon": "fas fa-cloud",
+      "tags": [
+        "Google Cloud",
+        "AWS",
+        "Azure",
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "Cloud Run"
+      ]
+    },
+    "Databases": {
+      "icon": "fas fa-database",
+      "tags": [
+        "MongoDB",
+        "Firestore",
+        "RethinkDB",
+        "Redis",
+        "PostgreSQL",
+        "SQL Server",
+        "BigQuery"
+      ]
+    },
+    "Tools & More": {
+      "icon": "fas fa-tools",
+      "tags": [
+        "Git",
+        "Elasticsearch",
+        "GraphQL",
+        "pandas",
+        "Jest",
+        "Cypress",
+        "Jira",
+        "VSCode"
+      ]
+    },
+    "Architecture": {
+      "icon": "fas fa-sitemap",
+      "tags": [
+        "Microservices",
+        "SaaS",
+        "Pub/Sub",
+        "Routing Slip",
+        "Dead Letter Queues"
+      ]
+    },
+    "Methodologies": {
+      "icon": "fas fa-users-cog",
+      "tags": [
+        "Agile",
+        "Scrum",
+        "CI/CD",
+        "TDD"
+      ]
+    },
+    "E-Commerce & CMS": {
+      "icon": "fas fa-shopping-cart",
+      "tags": [
+        "WordPress",
+        "WooCommerce",
+        "Shopify",
+        "Webflow",
+        "Squarespace",
+        "Website Customization",
+        "Payment Gateway Integration",
+        "SEO Optimization"
+      ]
+    },
+    "AI & Data Science": {
+      "icon": "fas fa-brain",
+      "tags": [
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Computer Vision",
+        "Data Cleaning",
+        "Data Visualization",
+        "Statistical Analysis",
+        "OpenCV",
+        "Scikit-Learn",
+        "Pandas",
+        "NumPy",
+        "Vertex AI",
+        "Gemini",
+        "Multimodal RAG"
+      ]
+    },
+    "Development Practices": {
+      "icon": "fas fa-cogs",
+      "tags": [
+        "Agile Development",
+        "Problem Solving",
+        "Debugging",
+        "Software Testing",
+        "Version Control",
+        "Technical Documentation",
+        "Open Source Contribution"
+      ]
+    }
+  },
+  "projects": [
+    {
+      "name": "AI CRM",
+      "tagline": "AI-powered attendance management system using Computer Vision and Machine Learning for real-time face recognition and automated attendance tracking.",
+      "logoImg": "image/lazyfire-logo.svg",
+      "logoText": "AI Face Recognition",
+      "repoUrl": "https://github.com/akshayvasoya",
+      "demoUrl": ""
+    },
+    {
+      "name": "Heatmap Analytics",
+      "tagline": "WordPress analytics plugin that tracks user interactions and generates heatmaps to help website owners understand visitor behavior.",
+      "logoImg": "",
+      "logoText": "{ } Anonindo",
+      "repoUrl": "https://wordpress.org/plugins/anonindo-heatmap-analytics/",
+      "demoUrl": "https://wordpress.org/plugins/anonindo-heatmap-analytics/"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor's Degree in Information Technology",
+      "school": "P P Savani University",
+      "period": "2020 - 2024",
+      "location": "Surat, India"
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "stars": 3
+    },
+    {
+      "name": "Hindi",
+      "stars": 3
+    },
+    {
+      "name": "Gujarati",
+      "stars": 3
+    },
+    {
+      "name": "German",
+      "stars": 1
+    }
+  ],
+  "header": {
+    "brandText": "",
+    "ctaText": "Get in Touch!",
+    "ctaLink": "#contact",
+    "links": [
+      {
+        "text": "Anonindo",
+        "link": "https://profiles.wordpress.org/anonymoustech/",
+        "icon": "image/anonindo-logo.png"
+      },
+      {
+        "text": "My Swayam",
+        "link": "https://myswayam.online/",
+        "icon": "image/My_Swayam_Logo.png"
+      }
+    ]
+  },
+  "editPasswordHash": ""
+}

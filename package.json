@@ -1,0 +1,17 @@
+{
+  "name": "marjoballabani.me",
+  "version": "1.0.0",
+  "description": "My custom Neo-Brutalist portfolio website",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "resume",
+    "neo-brutalism"
+  ],
+  "author": "",
+  "license": "MIT"
+}
