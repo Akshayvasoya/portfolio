@@ -258,9 +258,9 @@
   },
   "projects": [
     {
-      "name": "AI CRM",
+      "name": "Anonindo",
       "tagline": "AI-powered attendance management system using Computer Vision and Machine Learning for real-time face recognition and automated attendance tracking.",
-      "logoImg": "image/lazyfire-logo.svg",
+      "logoImg": "image/anonindo-logo.png",
       "logoText": "AI Face Recognition",
       "repoUrl": "https://github.com/akshayvasoya",
       "demoUrl": ""
