@@ -48,6 +48,7 @@
         }
 
         .container {
+            display: none;
             max-width: 1000px;
             margin: 0 auto;
         }
@@ -324,7 +325,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba(0, 0, 0, 0.85);
+            background-color: var(--bg);
             z-index: 9999999;
             display: flex;
             align-items: center;
@@ -804,6 +805,14 @@
             ['ribbon-enabled', 'ribbon-text', 'ribbon-url', 'ribbon-icon', 'map-lat', 'map-lng', 'map-zoom', 'h-brand', 'h-cta-text', 'h-cta-link'].forEach(id => {
                 document.getElementById(id).addEventListener('input', saveDraft);
             });
+
+            // Hide Save Locally button if running in production (hosted on GitHub Pages or custom domain)
+            if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
+                const localSaveBtn = document.getElementById('save-local-btn');
+                if (localSaveBtn) {
+                    localSaveBtn.style.display = 'none';
+                }
+            }
         });
 
         async function loadData() {
@@ -830,6 +839,8 @@
                     }
                 }
                 
+                // Show container if unlocked or no password set
+                document.querySelector('.container').style.display = 'block';
                 populateForm();
             } catch (e) {
                 showToast('Failed to load portfolio details.', true);
@@ -843,6 +854,7 @@
             if (hash === correctHash) {
                 sessionStorage.setItem('portfolio_unlocked', 'true');
                 document.getElementById('password-gate').style.display = 'none';
+                document.querySelector('.container').style.display = 'block'; // Show container
                 populateForm();
             } else {
                 const err = document.getElementById('gate-error');
