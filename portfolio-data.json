@@ -258,12 +258,12 @@
   },
   "projects": [
     {
-      "name": "My Swayam",
+      "name": "MySwayam",
       "tagline": "Technology channel dedicated to AI, Computer Vision, Machine Learning, software development, and innovative solutions for real-world applications.",
       "logoImg": "image/My_Swayam_Logo.png",
       "logoText": "AI Face Recognition",
       "repoUrl": "https://github.com/akshayvasoya",
-      "demoUrl": ""
+      "demoUrl": "https://youtube.com/@MySwayam"
     },
     {
       "name": "Heatmap Analytics",
