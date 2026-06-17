@@ -819,7 +819,7 @@
             try {
                 // Check local storage draft first
                 const draft = localStorage.getItem('portfolio_preview_data');
-                const response = await fetch('portfolio-data.json');
+                const response = await fetch('portfolio-data.json?t=' + Date.now());
                 const originalData = await response.json();
                 
                 // Merge draft if present (to not lose edit state on refresh)

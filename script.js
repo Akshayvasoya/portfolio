@@ -33,7 +33,7 @@ class TerminalResume {
 
   async init() {
     try {
-      const response = await fetch("portfolio-data.json");
+      const response = await fetch("portfolio-data.json?t=" + Date.now());
       this.portfolioData = await response.json();
     } catch (e) {
       console.error("Failed to load portfolio-data.json in terminal", e);

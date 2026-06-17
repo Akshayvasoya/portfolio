@@ -27,7 +27,7 @@ async function loadPortfolioData() {
     
     if (!portfolioData) {
         try {
-            const response = await fetch('portfolio-data.json');
+            const response = await fetch('portfolio-data.json?t=' + Date.now());
             portfolioData = await response.json();
         } catch (e) {
             console.error('Failed to load portfolio-data.json', e);
