@@ -443,6 +443,7 @@
             <div class="header-buttons">
                 <button class="btn btn-purple" id="preview-btn"><i class="fas fa-eye"></i> Preview Draft</button>
                 <button class="btn btn-yellow" id="save-local-btn"><i class="fas fa-save"></i> Save Locally</button>
+                <button class="btn btn-green" id="save-github-header-btn"><i class="fab fa-github"></i> Publish to GitHub</button>
             </div>
         </header>
 
@@ -1627,6 +1628,11 @@
             savePortfolioLocally();
         });
 
+        // Publish to GitHub (from Header button)
+        document.getElementById('save-github-header-btn').addEventListener('click', () => {
+            savePortfolioGitHub();
+        });
+
         async function savePortfolioLocally() {
             saveDraft();
             try {
@@ -1671,7 +1677,11 @@
             const pat = document.getElementById('gh-pat').value.trim();
             
             if (!user || !repo || !pat) {
-                showToast('Please fill out all GitHub fields (Username, Repo, Token)', true);
+                showToast('Please configure your GitHub details first!', true);
+                switchTab('tab-publish');
+                if (!user) document.getElementById('gh-user').focus();
+                else if (!repo) document.getElementById('gh-repo').focus();
+                else if (!pat) document.getElementById('gh-pat').focus();
                 return;
             }
 
@@ -1689,9 +1699,17 @@
             }
 
             const btn = document.getElementById('publish-gh-btn');
+            const headerBtn = document.getElementById('save-github-header-btn');
+            
             const originalText = btn.innerHTML;
-            btn.innerHTML = `<span class="spinner"></span> Committing changes...`;
+            const originalHeaderText = headerBtn ? headerBtn.innerHTML : '';
+            
+            btn.innerHTML = `<span class="spinner"></span> Committing...`;
             btn.disabled = true;
+            if (headerBtn) {
+                headerBtn.innerHTML = `<span class="spinner"></span> Committing...`;
+                headerBtn.disabled = true;
+            }
 
             try {
                 const filePath = 'portfolio-data.json';
@@ -1746,6 +1764,10 @@
             } finally {
                 btn.innerHTML = originalText;
                 btn.disabled = false;
+                if (headerBtn) {
+                    headerBtn.innerHTML = originalHeaderText;
+                    headerBtn.disabled = false;
+                }
             }
         }
 
